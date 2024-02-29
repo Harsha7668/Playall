@@ -253,7 +253,7 @@ def download_catchup(catchup_url, data_json, app, message):
             title = "NO CUSTOM"
 
         msg = message.reply_text(f"<b>Processing...</b>")
-        tataskyapiurl = f'https://streamtape-vercel.vercel.app/url?query=https://kong-tatasky.videoready.tv/content-detail/pub/api/v1/catchupEpg/{catchup_id}'
+        tataskyapiurl = 'https://df6d.short.gy/Tataplay.m3u'
         trequest = Request(tataskyapiurl, headers={'User-Agent': '5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'})
         tResponse = urlopen(trequest)
         tplay_catchup_data = json.loads(tResponse.read())
