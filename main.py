@@ -65,4 +65,18 @@ def start_cmd_handler(app, message):
 
 print(script_developer , "\n")
 
+@app.on_message(filters.incoming & filters.command(['ping']) & filters.text)
+async def ping(_, message):
+    start_time = time.time()
+    msg =  await message.reply_text("Ping...")
+    await msg.edit("✮ᑭｴƝGing...✮")
+    end_time = time.time()
+    ping_time = round((end_time - start_time) * 1000, 3)
+    uptime = get_readable_time((time.time() - StartTime))
+    await msg.edit(f"I Aᴍ Aʟɪᴠᴇ Mᴀꜱᴛᴇʀ\n⋙ 🔔 ᑭｴƝG: {ping_time}\n⋙ ⬆️ ⴑⲢⲦⲒⲘⲈ: {uptime}")
+    try:
+        await message.delete()
+    except:
+        return
+
 app.run()
