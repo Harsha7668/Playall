@@ -1,12 +1,12 @@
-api_id = 18990697
+api_id = 4857766
 
-api_hash = "f4815b9a16cb03c2f5eabe8db1cb0903"
+api_hash = "6c3c6facf5598a4b318e138f8c407028"
 
-bot_token = "7031885134:AAF5HezDm3R1-e0oJ0yxMwgnrN1kkweVV_U"
+bot_token = "6376375994:AAG9nEATujl5lT-JMKYxF9qsB660dRCN3Uk"
 
-GROUP_TAG = "SP"
+GROUP_TAG = "HF"
 
-sudo_users = [6651534688,1195351595,1956698956]
+sudo_users = [1596559467,1956698956]
 
 DL_DONE_MSG = """
 ✅ <b> {} Completed In </b> <code>{}</code>
