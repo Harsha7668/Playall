@@ -4,7 +4,7 @@ api_hash = "6c3c6facf5598a4b318e138f8c407028"
 
 bot_token = "7082142123:AAGZpbB6yYh3kU3BfzalQ4ghmBWhfpx5QTY"
 
-GROUP_TAG = "HF"
+GROUP_TAG = "CARTOONANDANIMEKINGDOM"
 
 sudo_users = [1596559467]
 
