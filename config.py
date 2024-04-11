@@ -2,7 +2,7 @@ api_id = 4857766
 
 api_hash = "6c3c6facf5598a4b318e138f8c407028"
 
-bot_token = "6376375994:AAH6oKl2ozL2EsTgL60X0W57bOHdzBx3XT4"
+bot_token = "7082142123:AAGZpbB6yYh3kU3BfzalQ4ghmBWhfpx5QTY"
 
 GROUP_TAG = "HF"
 
