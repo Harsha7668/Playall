@@ -1,12 +1,12 @@
-api_id = 4857766
+api_id = 10811400
 
-api_hash = "6c3c6facf5598a4b318e138f8c407028"
+api_hash = "191bf5ae7a6c39771e7b13cf4ffd1279"
 
-bot_token = "7082142123:AAHy1dyHjkJGv13uo7n3iAsdHKJhNiNGhIA"
+bot_token = "7412278588:AAHtejVjcX0W7dvtHCDs0Py6CmRuvGDYLCw"
 
-GROUP_TAG = "CARTOONANDANIMEKINGDOM"
+GROUP_TAG = "SUNRISES2RIPS"
 
-sudo_users = [1596559467]
+sudo_users = [6469754522]
 
 DL_DONE_MSG = """
 ✅ <b> {} Completed In </b> <code>{}</code>
